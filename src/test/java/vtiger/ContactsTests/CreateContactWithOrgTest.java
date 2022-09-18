@@ -56,7 +56,7 @@ public class CreateContactWithOrgTest extends BaseClass{
 	    	System.out.println("invalid browesr name");
 	    }
 	    
-	    wUtil.maximiseWindow(driver);
+	    wUtil.maximizeWindow(driver);
 	    wUtil.waitForElementsToLoadInDOM(driver);
 	    driver.get(URL);
 	    
